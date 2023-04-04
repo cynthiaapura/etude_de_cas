@@ -1,6 +1,7 @@
 <?php
     include_once "./pages/head_var.inc.php";
-    include_once "./pages/head.inc.php"
+    include_once "./pages/head.inc.php";
+    include_once "./pages/produit.inc.php"
 ?>
 
 <body>
@@ -9,15 +10,15 @@
             <span> 
                 <img src="./asset/phone-gift-svgrepo-com.svg" alt="logo" aria-hidden="true">
             </span>
-            Smartphone neufs ou reconditionnés
+            <?= $produit["titre"] ?>
         </h1>
     </header>
     <main>
-        <?php include_once "section.inc.php" ?>
+        <?php include_once "./pages/section.inc.php" ?>
 
         <footer>
         <p>
-            <?php include_once "footer.inc.php" ?>
+            <?php include_once "./pages/footer.inc.php" ?>
         </p>
         </footer>
     </main>
