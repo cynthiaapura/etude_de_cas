@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 html{ /* sélecteur propriété valeur */
     font-size: 62.5%;  /* 1.000rem root em 10px */
+    font-weight: bold;
 }
 body{
     font: 1.6rem "Roboto",sans-serif; /* 16px */
@@ -51,12 +52,13 @@ header span img{
     transform : rotate(30deg);
     vertical-align: middle;
 }
-p{
+figure img{
+    margin-bottom: 1.5rem;
+}
+section p{
     max-width: 70rem;
     line-height: 2.6rem;
-    margin: 2.0rem auto 0;
-    border: solid 0.1rem #ccc;
-    padding: 1.0rem;
+    margin: .5rem auto 0;
 }
 main figure{
     max-width: 70rem;
@@ -70,7 +72,7 @@ section{
     box-shadow: 0 0 2rem var(--shadow-color);
     max-width: 70rem;
     padding: 0.5rem;
-    margin: 2.0rem auto;
+    margin: 2rem auto;
     border-radius: 1.5%;
     text-align: center;
 }
@@ -79,18 +81,14 @@ section > h2{
     line-height: 4.5rem;
     padding: 2rem;
 }
-section > p {
-    border: 0;
-    padding: 1.0rem;
-    margin: 0;
-}
+
 ul > li {
     display: inline-block;
     font-weight: bold;
     /* haut | horizontal | bas */
     padding: .5rem 6rem .5rem;
     margin: .5rem;
-    border-radius: 7%;
+    border-radius: 1rem;
 }
 .color > .first{
     background-color: var(--first-color);
