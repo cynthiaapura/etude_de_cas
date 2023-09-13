@@ -16,11 +16,7 @@
     <main>
         <?php include_once "./pages/section.inc.php" ?>
 
-        <footer>
-        <p>
-            <?php include_once "./pages/footer.inc.php" ?>
-        </p>
-        </footer>
     </main>
+    <?php include_once "./pages/footer.inc.php" ?>
 </body>
 </html>

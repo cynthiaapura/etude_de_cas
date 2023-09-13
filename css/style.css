@@ -81,6 +81,10 @@ section > h2{
     line-height: 4.5rem;
     padding: 2rem;
 }
+section .list-prod{
+    display: block;
+    text-align: left;
+}
 
 ul > li {
     display: inline-block;
