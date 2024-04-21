@@ -2,5 +2,4 @@
 
 [Lien vers la page](https://cynthiaapura.github.io/etude_de_cas/)
 
-Dans un premier temps j'ai crée tout le projet de manière statique pour ensuite le rendre dynamique.
-
+Afin de pouvoir tester le projet et voir le rendu final, il faut forker ou cloner le projet.
